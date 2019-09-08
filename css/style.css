@@ -1,0 +1,183 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 50px;
+    background-color: #212121;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader {
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0, 0, 0, .6);
+    /* z-index: 2; */
+  
+}
+.subheader_logo {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+}
+.subheader_off {
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 6px;
+    opacity: 0.5;
+    }
+    .subheader_call {
+        font-size: 13px;
+        color: #ffffff;
+        margin-top: 12px;
+        opacity: 0.5;
+        text-align: right;
+    }
+    .subheader_phone {
+        display: block;
+        font-size: 19px;
+        color: #ffffff;
+        margin-top: 6px;
+        text-align: right;
+    }
+    .subheader .subheader_btn {
+        margin-top: 16px;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        width: 172px;  
+        height: 46px;
+        box-shadow: insert 0 -3px 0 rgba(0, 0, 0, 0.12);
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to top, #1eacc7, #4ce2ff 100%);
+    }
+    .promo {
+        
+        min-height: 800px;
+        background: url('../img/bg.png') center center/cover no-repeat;
+        padding: 150px 0 135px 0;
+        /* transform: translateY(-84);
+        z-index: 1; */
+    }
+    .promo .promo_header {
+        text-align: center;
+        color: #fff;
+        font-size: 60px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 60px;
+        margin: 0;
+        margin-top:22px;
+
+    }
+    .promo_subheader {
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 36px;
+        margin: 0;
+        margin-top:22px;
+    }
+    .promo_text {
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height:24px;
+        margin: 0;
+        margin-top:23px;
+    }
+    .promo_btn {
+        display: block;
+        margin:100px auto 0px auto;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        width: 172px;  
+        height: 46px;
+        box-shadow: insert 0 -3px 0 rgba(0, 0, 0, 0.12);
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to top, #1eacc7, #4ce2ff 100%);
+    }
+    .advantage {
+        padding: 71px 0 65px 0;
+    }
+    .advantage_btn {
+            margin: 0 auto;
+            height: 24px;
+            width: 112px;
+            padding: 5px 12px;
+            background-color: #000000;
+            color: #ffffff;
+            font-size: 11px;
+            font-weight: 300;
+            text-transform: uppercase;
+    }
+    .advantage_h2 {
+        text-align: center;
+        color: #000000;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 36px;
+        margin: 0;
+        margin-top:15px;
+    }
+    .advantage .reasons_block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+    }
+    .advantage .reasons_block .reasons_round {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 26px;
+        width: 113px;
+        height: 113px;
+        background-color: #1eacc7;
+        border-radius: 100%;
+    }
+    .advantage .reasons_block .advantage_descr {
+        width: 343px;
+    }
+    .advantage .reasons_block .advantage_descr.advantages_subtitle {
+        line-height: 21px;
+        color: #1eacc7;
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .advantage .reasons_block .advantage_descr .advantage_text {
+        color: #202020;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 21px;
+     }
